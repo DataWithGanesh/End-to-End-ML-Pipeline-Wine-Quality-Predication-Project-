@@ -1,6 +1,6 @@
 # End-to-End-ML-Pipeline-Wine-Quality-Predication-Project-
 
-## WorkFlows:
+## WorkFlows (To update file):
 
 1. Update config.yaml
 2. Update schema.yaml
@@ -10,7 +10,7 @@
 6. Update the components
 7. Update the pipeline
 8. Update the main.py
-9. Update the app.py
+9. Update the app.py ## Web Application file
 
 ## How to run?
 

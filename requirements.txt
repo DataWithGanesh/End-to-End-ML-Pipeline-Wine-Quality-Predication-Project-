@@ -2,12 +2,12 @@ pandas
 numpy
 scikit-learn
 matplotlib
-python-box==6.0.2
+python-box==6.0.2 # for easy dictionary handling 
 pyYAML
 tqdm
-ensure==1.0.2
+ensure==1.0.2 # to avoid ensure package error in Windows OS 
 joblib
 types-PyYAML
-Flask
-Flask-Cors
+Flask # Web framework for deploying ML models 
+Flask-Cors # To handle Cross-Origin Resource Sharing (CORS) in Flask applications 
 -e .
