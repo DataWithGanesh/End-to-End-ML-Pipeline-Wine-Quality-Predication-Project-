@@ -1,4 +1,79 @@
-# End-to-End-ML-Pipeline-Wine-Quality-Predication-Project-
+# End-to-End ML Pipeline – Wine Quality Prediction (Regression Problem)
+
+Machine Learning • MLOps • Flask • Docker • AWS EC2 • GitHub Actions CI/CD • Modular Pipeline Architecture
+
+## Project Overview
+
+This is a production-ready End-to-End Machine Learning Pipeline for predicting Wine Quality (Regression Problem).
+The project demonstrates real-world ML Engineering + MLOps skills used in top product-based companies.
+
+It includes:
+
+✔ Modular, config-driven ML pipeline
+✔ Automated ingestion → validation → transformation → model training
+✔ Flask web application for inference
+✔ Docker containerization
+✔ CI/CD pipeline using GitHub Actions
+✔ Deployment on AWS EC2 (production-grade)
+
+This project is designed to showcase ML engineering, scalability, reproducibility, automation, and clean architecture, making it ideal for AI/ML Engineer, MLOps Engineer, Data Scientist, ML Developer roles.
+
+## Problem Statement
+
+Predict wine quality score (0–10) based on physicochemical properties.
+
+Type: Regression
+
+Dataset Example Features:
+Fixed acidity
+Volatile acidity
+Citric acid
+Residual sugar
+pH
+Alcohol
+Sulphates
+Chlorides
+Density
+etc.
+
+## Project Architecture
+
+```bash
+mlProject/
+│
+├── src/mlProject/
+│   ├── components/
+│   │   ├── data_ingestion.py
+│   │   ├── data_validation.py
+│   │   ├── data_transformation.py
+│   │   └── model_trainer.py
+│   │
+│   ├── config/
+│   │   ├── configuration.py
+│   │   └── __init__.py
+│   │
+│   ├── entity/
+│   │   └── config_entity.py
+│   │
+│   ├── utils/
+│   │   └── common.py
+│   │
+│   ├── pipeline/
+│   │   └── training_pipeline.py
+│   │
+│   └── constants/
+│       └── __init__.py
+│
+├── config/config.yaml
+├── params.yaml
+├── schema.yaml
+├── app.py  ← Flask app for prediction
+├── main.py ← Pipeline trigger
+├── Dockerfile
+├── requirements.txt
+├── .github/workflows/cicd.yaml
+└── README.md
+```
 
 ## WorkFlows (To update file):
 
