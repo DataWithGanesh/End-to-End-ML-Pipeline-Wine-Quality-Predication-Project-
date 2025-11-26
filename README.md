@@ -9,12 +9,12 @@ The project demonstrates real-world ML Engineering + MLOps skills used in top pr
 
 It includes:
 
-✔ Modular, config-driven ML pipeline
-✔ Automated ingestion → validation → transformation → model training
-✔ Flask web application for inference
-✔ Docker containerization
-✔ CI/CD pipeline using GitHub Actions
-✔ Deployment on AWS EC2 (production-grade)
+- ✔ Modular, config-driven ML pipeline
+- ✔ Automated ingestion → validation → transformation → model training
+- ✔ Flask web application for inference
+- ✔ Docker containerization
+- ✔ CI/CD pipeline using GitHub Actions
+- ✔ Deployment on AWS EC2 (production-grade)
 
 This project is designed to showcase ML engineering, scalability, reproducibility, automation, and clean architecture, making it ideal for AI/ML Engineer, MLOps Engineer, Data Scientist, ML Developer roles.
 
