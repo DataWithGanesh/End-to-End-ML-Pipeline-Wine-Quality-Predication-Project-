@@ -158,9 +158,11 @@ Permissions required:
 
 #### Type Port Purpose
 
+```bash
 SSH 22 Login
 Custom TCP 5000 Flask
 Custom TCP 80 Optional
+```
 
 ### 3. Install Docker on EC2
 
